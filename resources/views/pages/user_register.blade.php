@@ -34,6 +34,15 @@
                                 @enderror
                             </div>
                         </div>
+
+                    <div class="form-group basic">
+                        <div class="input-wrapper">
+                            <label class="label" for="password1">Password</label>
+                            <input type="password" class="form-control" id="password1" autocomplete="off"
+                                placeholder="Your password">
+                            <i class="clear-input">
+                                <ion-icon name="close-circle"></ion-icon>
+                            </i>
                     </div>
                     <div class="col-12 mb-4 pe-2">
                         <div class="form-floating mb-3">
@@ -68,12 +77,11 @@
                     <div class="col-12 justify-content-center d-flex">
                         <button class="col-9 btn btn-primary rounded-full bg-themecolor hover:bg-themecolor border-0 fs-3 font-bold">Register</button>
                     </div>
+
                 </form>
             </div>
         </div>
-        {{-- content --}}
-    </div>
-</div>
+<!-- * App Capsule -->
 
 
 
